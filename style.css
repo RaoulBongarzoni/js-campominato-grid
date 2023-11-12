@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.box{
+    border: solid 1px white;
+    text-align: center;
+
+}
+
+.clicked{
+    background-color: brown;
+}
+
+#grid{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    
+    height: 600px;
+    width: 600px;
+}
